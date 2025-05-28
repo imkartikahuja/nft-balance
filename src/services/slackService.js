@@ -12,7 +12,7 @@ class SlackService {
           type: "header",
           text: {
             type: "plain_text",
-            text: "⚠️ Low NFT Balance Alert",
+            text: "⚠️ Low NFT Balance Alert <!channel>",
             emoji: true
           }
         },
