@@ -7,12 +7,13 @@ class SlackService {
 
   async sendLowBalanceAlert(nftData) {
     const message = {
+      text: '<!channel> Low NFT Balance Alert',
       blocks: [
         {
           type: "header",
           text: {
             type: "plain_text",
-            text: "⚠️ Low NFT Balance Alert <!channel>",
+            text: "⚠️ Low NFT Balance Alert",
             emoji: true
           }
         },
