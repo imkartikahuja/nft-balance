@@ -68,7 +68,7 @@ class SchedulerService {
 
   // Check if we should send a notification
   shouldSendNotification(config, newBalance) {
-    const BALANCE_THRESHOLD = 500;
+    const BALANCE_THRESHOLD = 200;
     const NOTIFICATION_COOLDOWN = 1 * 60 * 60 * 1000; // 1 hours in milliseconds
 
     // Check if balance is below threshold
